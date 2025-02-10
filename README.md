@@ -10,6 +10,6 @@ Please refer to the installation guide on the wiki.
 
 For detailed instructions on how to use the API, visit the wiki.
 
-## Credits
+## Crediting
 
-Simply include a link to this repository to credit the project. If I specify otherwise directly to you, you may not need to include a link.
+Idc, use for whatever you want
