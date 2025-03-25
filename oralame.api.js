@@ -568,16 +568,16 @@
             this.maxClones = globalTrapInstance.runtime.constructor.MAX_CLONES;
             globalTrapInstance.runtime.clonesAvailable = () => this.cloneCount < this.maxClones;
         }
-        static get clones() {
+        get clones() {
             return globalTrapInstance.runtime.targets.filter(e => !e.isOriginal);       
         }
-        static get cloneCount() {
+        get cloneCount() {
             return (globalTrapInstance.runtime.targets.filter(e => !e.isOriginal)).length;
         }
-        static get sprites() {
+        get sprites() {
             return globalTrapInstance.runtime.targets.filter(e => e.isOriginal);
         }
-        static get spriteLength() {
+        get spriteLength() {
             return (globalTrapInstance.runtime.targets.filter(e => e.isOriginal)).length;
         }
         getSpriteByName(name) {
