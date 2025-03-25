@@ -1012,9 +1012,9 @@
         }
         _registerDefaultServices() {
             registerService("CloudService", new CloudService());
-            registerService("SpriteService", new CloudService());
-            registerService("VariableService", new CloudService());
-            registerService("DisablerService", new CloudService());
+            registerService("SpriteService", new SpriteService());
+            registerService("VariableService", new VariableService());
+            registerService("DisablerService", new DisablerService());
             registerService("BlockService", new BlockService());
             registerService("InputService", new InputService());
             registerService("UserDataService", new UserDataService());
